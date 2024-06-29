@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 // Components
+import MobileNav from "./MobileNav";
 import Nav from "./Nav";
 // Shadcn button
 import { Button } from "./ui/button";
@@ -23,7 +24,9 @@ const Header = () => {
                 </div>
 
                 {/* Mobile Nav */}
-                <div className="xl:hidden">Mobile Nav</div>
+                <div className="xl:hidden">
+                    <MobileNav/>
+                </div>
             </div>
         </header>
     );
