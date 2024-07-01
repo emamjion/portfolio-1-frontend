@@ -5,6 +5,7 @@ import { FiDownload } from 'react-icons/fi';
 import Photo from "@/components/Photo";
 import Social from "@/components/Social";
 import Stats from "@/components/Stats";
+import Link from "next/link";
 
 
 const Home = () => {
@@ -21,10 +22,12 @@ const Home = () => {
             </p>
             {/* Button and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button size='lg' className='uppercase flex items-center gap-2' variant='outline'>
-                <span>Download Resume</span>
-                <FiDownload className="text-xl" />
-              </Button>
+              <Link href='https://drive.google.com/file/d/16CleVeBa9bskP1EqLb9sgZFyNbiRlRvP/view?usp=drive_link' target="_blank">
+                <Button size='lg' className='uppercase flex items-center gap-2' variant='outline'>
+                  <span>Download Resume</span>
+                  <FiDownload className="text-xl" />
+                </Button>
+              </Link>
               <div className="mb-8 xl:mb-0">
                 <Social
                   containerStyles="flex gap-6"

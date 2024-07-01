@@ -18,7 +18,7 @@ const Header = () => {
                 {/* Desktop Nav and download resume button */}
                 <div className="hidden xl:flex items-center gap-8">
                     <Nav/>
-                    <Link href=''>
+                    <Link href='https://drive.google.com/file/d/16CleVeBa9bskP1EqLb9sgZFyNbiRlRvP/view?usp=drive_link' target="_blank">
                         <Button>Download Resume</Button>
                     </Link>
                 </div>
