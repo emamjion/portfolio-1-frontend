@@ -16,9 +16,9 @@ const Home = () => {
           {/* Text */}
           <div className="text-center xl:text-left order-2 xl:order-none ">
             <span className="text-xl">MERN Stack Developer</span>
-            <h1 className="h1 mb-6">Hello I'm <br /> <span className="text-accent">Emam Khalid Jion</span></h1>
+            <h1 className="h1 mb-6">Hello I am <br /> <span className="text-accent">Emam Khalid Jion</span></h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I'm a skilled MERN stack developer with expertise in building dynamic, scalable web applications using MongoDB, Express.js, React, and Node.js. Passionate about coding and innovation.
+              I am a skilled MERN stack developer with expertise in building dynamic, scalable web applications using MongoDB, Express.js, React, and Node.js. Passionate about coding and innovation.
             </p>
             {/* Button and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
