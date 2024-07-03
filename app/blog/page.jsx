@@ -91,7 +91,7 @@ const BlogPage = () => {
     
     const [blogs, setBlogs] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/blogs').then(res => res.json()).then(data => setBlogs(data))
+        fetch('https://my-nextjs-portfolio-backend.vercel.app/blogs').then(res => res.json()).then(data => setBlogs(data))
     }, [])
     
     return (
